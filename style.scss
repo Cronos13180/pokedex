@@ -1,0 +1,78 @@
+$bg-primary: #007bff;
+$bg-dark: black;
+$border-color: #dee2e6;
+$align-text: center;
+$text-decoration: none;
+$vert-clair:#68a890;
+$bleu:#498899;
+$vert-fonce:#489180;
+$jaune:#f0cf98;
+$rouge:#d7705f;
+$orange:#f8a060;
+$bleu-vert:#70b8c7;
+$bleu-metal:#9fb0d1;
+$white:white;
+
+
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $bg-dark;
+}
+
+
+
+header {
+    background-color: $bg-primary;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    border-color: $border-color;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: $align-text;
+    color: $white;
+    
+}
+ 
+a {text-decoration: $text-decoration;}
+
+
+h1{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#img1{
+    background-color:$vert-clair;
+}
+#img2{
+    background-color:$bleu;
+}
+#img3{
+    background-color:$vert-fonce;
+}
+#img4{
+    background-color:$jaune;
+}
+#img5{
+    background-color:$rouge;
+}
+#img6{
+    background-color:$orange;
+}
+#img7{
+    background-color:$bleu-vert;
+}
+#img8{
+    background-color:$bleu-metal;
+}
