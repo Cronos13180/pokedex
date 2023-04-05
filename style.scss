@@ -18,9 +18,9 @@ $white:white;
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: $bg-dark;
+  
+
 }
-
-
 
 header {
     background-color: $bg-primary;
@@ -34,10 +34,11 @@ header {
 .card-img-top {
     width: 100%;
     height: auto;
+    padding: 10px;
 }
 
 .card-title {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: bold;
     text-align: $align-text;
     color: $white;
@@ -75,4 +76,26 @@ h1{
 }
 #img8{
     background-color:$bleu-metal;
+}
+
+.custom-header {
+    height: 150px; // Choisissez la hauteur souhaitée pour le header
+
+}
+
+.header-image {
+    height: 100%;
+    object-fit: cover;
+    object-position: center; // Pour centrer l'image
+}
+
+h2{
+    text-align: $align-text;
+    color: $white;
+}
+#poids,#taille{
+    color:$white;
+}
+.weight,.height{
+    color: gray;
 }

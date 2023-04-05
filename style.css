@@ -15,10 +15,11 @@ header {
 .card-img-top {
   width: 100%;
   height: auto;
+  padding: 10px;
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
   color: white;
@@ -63,4 +64,29 @@ h1 {
 
 #img8 {
   background-color: #9fb0d1;
+}
+
+.custom-header {
+  height: 150px;
+}
+
+.header-image {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+#poids, #taille {
+  color: white;
+}
+
+.weight, .height {
+  color: gray;
 }/*# sourceMappingURL=style.css.map */
