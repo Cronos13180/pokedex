@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
@@ -63,7 +64,15 @@ h1 {
 }
 
 #img8 {
+  background-color: #489180;
+}
+
+#img9 {
   background-color: #9fb0d1;
+}
+
+#img10 {
+  background-color: #d7705f;
 }
 
 .custom-header {
@@ -71,7 +80,7 @@ h1 {
 }
 
 .header-image {
-  height: 100%;
+  height: 115px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -89,4 +98,68 @@ h2 {
 
 .weight, .height {
   color: gray;
+}
+
+.custom-progress-barHP {
+  background-color: white;
+}
+.custom-progress-barHP .progress-bar {
+  background-color: red;
+}
+
+.custom-progress-barATK {
+  background-color: white;
+}
+.custom-progress-barATK .progress-bar {
+  background-color: #f8a060;
+}
+
+.custom-progress-barDEF {
+  background-color: white;
+}
+.custom-progress-barDEF .progress-bar {
+  background-color: #007bff;
+}
+
+.custom-progress-barSPD {
+  background-color: white;
+}
+.custom-progress-barSPD .progress-bar {
+  background-color: #8fafc4;
+}
+
+.custom-progress-barEXP {
+  background-color: white;
+}
+.custom-progress-barEXP .progress-bar {
+  background-color: #489180;
+}
+
+.form-pokemon {
+  width: 100%;
+}
+
+/* Styles personnalisés pour les champs de formulaire */
+.form-pokemon input[type=text],
+.form-pokemon input[type=search] {
+  flex: 1;
+  height: 3rem; /* Ajuster la hauteur à votre convenance */
+}
+
+/* Styles personnalisés pour les boutons */
+.form-pokemon button {
+  width: 7rem; /* Ajuster la largeur à votre convenance */
+  height: 3rem;
+}
+
+/* Styles personnalisés pour la div contenant les formulaires */
+.form-container {
+  position: relative;
+  left: -25%; /* Ajuster le pourcentage de décalage à votre convenance */
+}
+
+.custom-title {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
 }/*# sourceMappingURL=style.css.map */

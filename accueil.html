@@ -11,15 +11,36 @@
 <title>Pokedex</title>
 </head>
 <body>
-    <header class="bg-danger text-white text-center py-3">
-        <h1>Pokédex</h1>
-    </header>
+<header class="bg-danger text-white text-center py-3">
+    <h1 class="mb-0 pb-0 custom-title">Pokédex</h1> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form class="d-flex mb-3 form-pokemon mt-4">
+          <input type="text" class="form-control" placeholder="Nom du Pokémon">
+          <button type="submit" class="btn btn-warning ms-2">Ajouter</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <form class="d-flex mb-3 form-pokemon mt-4">
+          <input type="search" class="form-control " placeholder="Rechercher un Pokémon">
+          <button type="submit" class="btn btn-warning ms-2">Rechercher</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+      
+    
+    
+
+
 
     <main>
         <div class="container">
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 gx-3 gy-3">
                 <div class="col">
-                    <a  href="#">
+                    <a  href="detail-pokemon.html">
                         <div id="img1" class="card m-2">
                             <img src="image/375px-Bulbizarre-RFVF.png" class="card-img-top" alt="Nom du Pokémon">
                             <div class="card-body">
@@ -92,6 +113,26 @@
                 <div class="col">
                     <a  href="#">
                         <div id="img8" class="card m-2">
+                            <img src="image/375px-Bulbizarre-RFVF.png" class="card-img-top" alt="Nom du Pokémon">
+                            <div class="card-body">
+                                <h5 class="card-title">Bulbizare</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a  href="detail-pokemon.html">
+                        <div id="img9" class="card m-2">
+                            <img src="image/375px-Bulbizarre-RFVF.png" class="card-img-top" alt="Nom du Pokémon">
+                            <div class="card-body">
+                                <h5 class="card-title">Bulbizarre</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a  href="#">
+                        <div id="img10" class="card m-2">
                             <img src="image/375px-Bulbizarre-RFVF.png" class="card-img-top" alt="Nom du Pokémon">
                             <div class="card-body">
                                 <h5 class="card-title">Bulbizare</h5>
